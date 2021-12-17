@@ -1,10 +1,7 @@
 name: CodeQL Analysis
 
 on:
-  push:
   pull_request:
-  schedule:
-    - cron: '0 8 * * *'
 
 jobs:
   analyze:
@@ -31,5 +28,7 @@ jobs:
       - name: Perform CodeQL Analysis
         id: analyze_codeql
         uses: github/codeql-action/analyze@v1
+        with:
+          debug: true
 
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
