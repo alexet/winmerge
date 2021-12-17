@@ -12,6 +12,7 @@
 for Windows. WinMerge can compare files and folders, presenting differences
 in a visual format that is easy to understand and manipulate.
 
+
 ## Build Requirements
 
 ### Visual Studio 2017
