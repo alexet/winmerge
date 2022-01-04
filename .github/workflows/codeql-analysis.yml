@@ -18,7 +18,7 @@ jobs:
         with:
           queries: security-and-quality
           debug: true
-          tools: https://github.com/dsp-testing/codeql-cli-nightlies/releases/download/untagged-f787e418e383f8acc3b0/codeql-bundle-win64.tar.gz
+          tools: https://github.com/dsp-testing/codeql-cli-nightlies/releases/download/codeql-bundle-20220104-2/codeql-bundle.tar.gz
       - name: Build project
         id: build_project
         shell: pwsh
