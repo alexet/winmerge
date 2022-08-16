@@ -10,6 +10,7 @@ pushd "%~dp0"
 rmdir /q /s %workdir% > NUL 2> NUL
 mkdir %workdir% 2> NUL
 
+
 git submodule init
 git submodule update
 
